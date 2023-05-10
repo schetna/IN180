@@ -49,7 +49,7 @@ pipeline {
           println("Start checking integration flow deployment status.");
           Integer counter = 0;
           def deploymentStatus;
-          def continueLoop = true;
+          def continueLoop = false;
 		  
 		      //check until max check counter reached or we have a final state
           while (counter < env.DeploymentCheckRetryCounter.toInteger() & continueLoop == true) {
