@@ -68,7 +68,7 @@ pipeline {
 
             println("Deployment status: " + deploymentStatus);
 			
-            if (deploymentStatus.equalsIgnoreCase("Error")) {
+            if (deploymentStatus.equals("Error")) {
               //in case of error, get the error details
               def deploymentErrorResp = httpRequest acceptType: 'APPLICATION_JSON',
                 customHeaders: [
@@ -85,7 +85,7 @@ pipeline {
               deploymentErrorResp.close();
               //End the whole job
               sh 'exit 1';
-            } else if (deploymentStatus.equalsIgnoreCase("Started")) {
+            } else if (deploymentStatus.equals("Started")) {
 			        //Final status reached 
               println("Integration flow deployment successful")
               statusResp.close();
@@ -96,12 +96,12 @@ pipeline {
             }
           }
 		      //After exiting the loop, react to the deployment state
-          if (!deploymentStatus.equalsIgnoreCase("Started")) {
+          if (!deploymentStatus.equals("Started")) {
 		        //If status not is Started, end the pipeline.
             println("No final deployment status reached. Current status: \'" + deploymentStatus);
             sh 'exit 1';
           } else {
-            if (env.GetEndpoint.equalsIgnoreCase("true")) {
+            if (env.GetEndpoint.equals("true")) {
               //Get endpoint as configured above
               def endpointResp = httpRequest acceptType: 'APPLICATION_JSON',
                 customHeaders: [
