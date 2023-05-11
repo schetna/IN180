@@ -6,6 +6,6 @@ node() {
     checkout scm
   }
   stage('deployIntegrationArtifact Command') {
-       integrationArtifactDeploy script: this
+       integrationArtifactUpload script: this
   }
 }
