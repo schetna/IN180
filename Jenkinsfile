@@ -68,61 +68,10 @@ pipeline {
 
             println("Deployment status: " + deploymentStatus);
 			
-            if (deploymentStatus.equals("Error")) {
-              //in case of error, get the error details
-              def deploymentErrorResp = httpRequest acceptType: 'APPLICATION_JSON',
-                customHeaders: [
-                  [maskValue: false, name: 'Authorization', value: env.token]
-                ],
-                httpMode: 'GET',
-                responseHandle: 'LEAVE_OPEN',
-                timeout: 30,
-                url: 'https://' + "${env.CPIHost}" + '/api/v1/IntegrationRuntimeArtifacts(\'' + "${env.IntegrationFlowID}" + '\')' + '/ErrorInformation/$value';
-              def jsonErrObj = readJSON text: deploymentErrorResp.content
-              def deployErrorInfo = jsonErrObj.parameter;
-              println("Error Details: " + deployErrorInfo);
-              statusResp.close();
-              deploymentErrorResp.close();
-              //End the whole job
-              sh 'exit 1';
-            } else if (deploymentStatus.equals("Started")) {
-			        //Final status reached 
-              println("Integration flow deployment successful")
-              statusResp.close();
-              continueLoop = false
-            } else {
-			        //Continue checking 
-              println("The integration flow is not yet started. Will wait 3s and then check again.")
-            }
+            
           }
-		      //After exiting the loop, react to the deployment state
-          if (!deploymentStatus.equals("Started")) {
-		        //If status not is Started, end the pipeline.
-            println("No final deployment status reached. Current status: \'" + deploymentStatus);
-            sh 'exit 1';
-          } else {
-            if (env.GetEndpoint.equals("true")) {
-              //Get endpoint as configured above
-              def endpointResp = httpRequest acceptType: 'APPLICATION_JSON',
-                customHeaders: [
-                  [maskValue: false, name: 'Authorization', value: env.token]
-                ],
-                httpMode: 'GET',
-                responseHandle: 'LEAVE_OPEN',
-                timeout: 30,
-                url: 'https://' + "${env.CPIHost}" + '/api/v1/ServiceEndpoints?$filter=Name%20eq%20\'' + "${env.IntegrationFlowID}" + '\'&$select=EntryPoints&$format=json&$expand=EntryPoints'
-              def jsonEndpointObj = readJSON text: endpointResp.content;
-              def endpoint = jsonEndpointObj.d.results.EntryPoints.results.Url;
-              def size = (jsonEndpointObj.d.results.EntryPoints.results).size();
-              endpointResp.close();
-			        //check if the flow has an endpoint
-              if (size != 0) {
-                println("Endpoint: " + endpoint);
-              } else {
-                unstable("The specified integration flow does not have an endpoint. Please check the flow or tenant")
-              }
-            }
-          }
+		     
+           
         }
       }
     }
