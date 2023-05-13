@@ -8,12 +8,12 @@ stages:
   deployStage:
     enabled: true
   integrationTestStage:
-    enabled: false
+    enabled: true
 steps:
   integrationArtifactUpload:
     packageId: "CICD"
     integrationFlowName: "S0024648617-flow4"
   integrationArtifactTriggerIntegrationTest:
-    contentType: ""
-    messageBodyPath: ""
-    integrationFlowServiceKeyCredentialsId: ""
+    contentType: "application/json"
+    messageBodyPath: "https://github.com/schetna/IN180/blob/S0024648617-CICD1/CICD.json"
+    integrationFlowServiceKeyCredentialsId: "myapikey"
