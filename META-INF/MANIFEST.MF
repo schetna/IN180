@@ -55,7 +55,7 @@ Origin-Bundle-Name: S0024648617-flow4
 SAP-RuntimeProfile: iflmap
 WorkspaceProfile: iflmap
 Bundle-Name: S0024648617-flow4
-Bundle-Version: 1.0.3
+Bundle-Version: 1.0.4
 Bundle-ClassPath: .
 SAP-StartOrder: 1000
 SAP-NodeType: IFLMAP
