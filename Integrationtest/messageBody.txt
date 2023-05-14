@@ -21,5 +21,63 @@
     "quantity_min": "1",
     "quantity_max": "1",
     "par_weight": "0",
+    "attributes": [
+      {
+        "key": "comparison_price_unit",
+        "value": "string"
+      },
+      {
+        "key": "net_content",
+        "value": "1.23456"
+      },
+      {
+        "key": "country_origin",
+        "value": "Austria"
+      },
+      {
+        "key": "consumer_storage_instructions",
+        "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986",
+        "translations": [
+          {
+            "locale": "en_AU",
+            "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
+          },
+          {
+            "locale": "en_AU",
+            "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
+          },
+          {
+            "locale": "en_AU",
+            "value": "ConsumerPackageDisclaimer en_AU 0001008690_099999999999999986"
+          },
+          {
+            "locale": "en_AU",
+            "value": "ConsumerPackageDisclaimer en_AU 0001008691_099999999999999986"
+          }
+        ]
+      },
+      {
+        "key": "consumer_usage_instructions",
+        "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986",
+        "translations": [
+          {
+            "locale": "en_AU",
+            "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
+          },
+          {
+            "locale": "en_AU",
+            "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
+          },
+          {
+            "locale": "en_AU",
+            "value": "ConsumerPackageDisclaimer en_AU 0001008690_099999999999999986"
+          },
+          {
+            "locale": "en_AU",
+            "value": "ConsumerPackageDisclaimer en_AU 0001008691_099999999999999986"
+          }
+        ]
+      }
+    ]
   }
 }
