@@ -1,83 +1,83 @@
-{
-  "country": "AU",
-  "abstract_sku": "099999999999999986",
-  "usa_snap_eligible": "false",
-  "alcoholic": "true",
-  "organic": "false",
-  "kosher": "false",
-  "variant_building_attributes": "colour",
-  "variant": {
-    "variant_sku": "099999999999999986",
-    "active": "false",
-    "retailer_reference_code": "099999999999999986",
-    "temperature_class": "ambient",
-    "random_weight_type": "0",
-    "product_code_legacy": "1076",
-    "product_class": "core",
-    "price_unit": "KG",
-    "unit_content": "1",
-    "age_restrictions": "18",
-    "cat_tax": "010001",
-    "quantity_min": "1",
-    "quantity_max": "1",
-    "par_weight": "0",
-    "attributes": [
-      {
-        "key": "comparison_price_unit",
-        "value": "string"
-      },
-      {
-        "key": "net_content",
-        "value": "1.23456"
-      },
-      {
-        "key": "country_origin",
-        "value": "Austria"
-      },
-      {
-        "key": "consumer_storage_instructions",
-        "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986",
-        "translations": [
-          {
-            "locale": "en_AU",
-            "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
-          },
-          {
-            "locale": "en_AU",
-            "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
-          },
-          {
-            "locale": "en_AU",
-            "value": "ConsumerPackageDisclaimer en_AU 0001008690_099999999999999986"
-          },
-          {
-            "locale": "en_AU",
-            "value": "ConsumerPackageDisclaimer en_AU 0001008691_099999999999999986"
-          }
-        ]
-      },
-      {
-        "key": "consumer_usage_instructions",
-        "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986",
-        "translations": [
-          {
-            "locale": "en_AU",
-            "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
-          },
-          {
-            "locale": "en_AU",
-            "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
-          },
-          {
-            "locale": "en_AU",
-            "value": "ConsumerPackageDisclaimer en_AU 0001008690_099999999999999986"
-          },
-          {
-            "locale": "en_AU",
-            "value": "ConsumerPackageDisclaimer en_AU 0001008691_099999999999999986"
-          }
-        ]
-      }
-    ]
-  }
-}
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:deliveryhero.com:po:O2C:TRANS">
+   <soapenv:Header/>
+   <soapenv:Body>
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <country>AU</country>
+  <abstract_sku>099999999999999986</abstract_sku>
+  <usa_snap_eligible>false</usa_snap_eligible>
+  <alcoholic>true</alcoholic>
+  <organic>false</organic>
+  <kosher>false</kosher>
+  <variant_building_attributes>colour</variant_building_attributes>
+  <variant>
+    <variant_sku>099999999999999986</variant_sku>
+    <active>false</active>
+    <retailer_reference_code>099999999999999986</retailer_reference_code>
+    <temperature_class>ambient</temperature_class>
+    <random_weight_type>0</random_weight_type>
+    <product_code_legacy>1076</product_code_legacy>
+    <product_class>core</product_class>
+    <price_unit>KG</price_unit>
+    <unit_content>1</unit_content>
+    <age_restrictions>18</age_restrictions>
+    <cat_tax>010001</cat_tax>
+    <quantity_min>1</quantity_min>
+    <quantity_max>1</quantity_max>
+    <par_weight>0</par_weight>
+    <attributes>
+      <key>comparison_price_unit</key>
+      <value>string</value>
+    </attributes>
+    <attributes>
+      <key>net_content</key>
+      <value>1.23456</value>
+    </attributes>
+    <attributes>
+      <key>country_origin</key>
+      <value>Austria</value>
+    </attributes>
+    <attributes>
+      <key>consumer_storage_instructions</key>
+      <value>ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986</value>
+      <translations>
+        <locale>en_AU</locale>
+        <value>ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986</value>
+      </translations>
+      <translations>
+        <locale>en_AU</locale>
+        <value>ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986</value>
+      </translations>
+      <translations>
+        <locale>en_AU</locale>
+        <value>ConsumerPackageDisclaimer en_AU 0001008690_099999999999999986</value>
+      </translations>
+      <translations>
+        <locale>en_AU</locale>
+        <value>ConsumerPackageDisclaimer en_AU 0001008691_099999999999999986</value>
+      </translations>
+    </attributes>
+    <attributes>
+      <key>consumer_usage_instructions</key>
+      <value>ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986</value>
+      <translations>
+        <locale>en_AU</locale>
+        <value>ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986</value>
+      </translations>
+      <translations>
+        <locale>en_AU</locale>
+        <value>ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986</value>
+      </translations>
+      <translations>
+        <locale>en_AU</locale>
+        <value>ConsumerPackageDisclaimer en_AU 0001008690_099999999999999986</value>
+      </translations>
+      <translations>
+        <locale>en_AU</locale>
+        <value>ConsumerPackageDisclaimer en_AU 0001008691_099999999999999986</value>
+      </translations>
+    </attributes>
+  </variant>
+</root>
+   </soapenv:Body>
+</soapenv:Envelope>
