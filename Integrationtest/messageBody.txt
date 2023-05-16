@@ -1,7 +1,6 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:deliveryhero.com:po:O2C:TRANS">
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Header/>
    <soapenv:Body>
-<?xml version="1.0" encoding="UTF-8" ?>
 <root>
   <country>AU</country>
   <abstract_sku>099999999999999986</abstract_sku>
