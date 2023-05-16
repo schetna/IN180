@@ -1,5 +1,5 @@
 {
-  "country": "US",
+  "country": "AU",
   "abstract_sku": "099999999999999986",
   "usa_snap_eligible": "false",
   "alcoholic": "true",
