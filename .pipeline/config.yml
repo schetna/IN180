@@ -2,12 +2,4 @@ steps:
   integrationArtifactDeploy:
     cpiApiServiceKeyCredentialsId: schetnaServiceKeyCredential
     integrationFlowId: S0024648617-flow4
-  integrationArtifactGetMplStatus:
-    cpiApiServiceKeyCredentialsId: schetnaServiceKeyCredential
-    integrationFlowId: S0024648617-flow4
-  integrationArtifactUpload:
-    cpiApiServiceKeyCredentialsId: schetnaServiceKeyCredential
-    integrationFlowId: S0024648617-flow4
-    integrationFlowName: S0024648617-flow4
-    packageId: CICD
-    filePath: S0024648617-flow4.zip
+ 
