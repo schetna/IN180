@@ -1,0 +1,19 @@
+---
+general:
+  cpiApiServiceKeyCredentialsId: "mygitservicekey"
+  integrationFlowId: "S0024648617-flow4"
+stages:
+  uploadStage:
+    enabled: true
+  deployStage:
+    enabled: true
+  integrationTestStage:
+    enabled: true
+steps:
+  integrationArtifactUpload:
+    packageId: "CICD"
+    integrationFlowName: "S0024648617-flow4"
+  integrationArtifactTriggerIntegrationTest:
+    contentType: "application/json"
+    messageBodyPath: "https://github.com/schetna/IN180/blob/S0024648617-CICD1/CICD.json"
+    integrationFlowServiceKeyCredentialsId: "myapikey"

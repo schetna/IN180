@@ -1,0 +1,220 @@
+
+  {
+    "country": "AU",
+    "abstract_sku": "000000000000423524",
+    "usa_snap_eligible": "false",
+    "alcoholic": "false",
+    "organic": "false",
+    "kosher": "false",
+    "variant_building_attributes": "colour",
+    "variant": {
+      "variant_sku": "000000000423524003",
+      "active": "false",
+      "retailer_reference_code": "000000000423524003",
+      "temperature_class": "ambient",
+      "random_weight_type": "0",
+      "product_code_legacy": "801573",
+      "product_class": [],
+      "price_unit": "EA",
+      "unit_content": "1",
+      "age_restrictions": [],
+      "cat_tax": "010001",
+      "quantity_max": "99",
+      "par_weight": "0",
+      "attributes": [
+        {
+          "key": "comparison_price_unit",
+          "value": "KG"
+        },
+        {
+          "key": "net_content",
+          "value": "0.000"
+        }
+      ]
+    }
+  },
+  {
+    "country": "AU",
+    "abstract_sku": "000000000000423613",
+    "usa_snap_eligible": "false",
+    "alcoholic": "false",
+    "organic": "false",
+    "kosher": "false",
+    "variant_building_attributes": "colour",
+    "variant": {
+      "variant_sku": "000000000423613006",
+      "active": "false",
+      "retailer_reference_code": "000000000423613006",
+      "temperature_class": "ambient",
+      "random_weight_type": "0",
+      "product_code_legacy": [],
+      "product_class": [],
+      "price_unit": "EA",
+      "unit_content": "1",
+      "age_restrictions": [],
+      "cat_tax": "010001",
+      "quantity_max": "99",
+      "par_weight": "0",
+      "attributes": [
+        {
+          "key": "comparison_price_unit",
+          "value": "KG"
+        },
+        {
+          "key": "net_content",
+          "value": "0.000"
+        }
+      ]
+    }
+  },
+  {
+    "country": "AU",
+    "abstract_sku": "000000000000423668",
+    "usa_snap_eligible": "false",
+    "alcoholic": "false",
+    "organic": "false",
+    "kosher": "false",
+    "variant_building_attributes": "colour",
+    "variant": {
+      "variant_sku": "000000000423668002",
+      "active": "false",
+      "retailer_reference_code": "000000000423668002",
+      "temperature_class": "ambient",
+      "random_weight_type": "0",
+      "product_code_legacy": [],
+      "product_class": [],
+      "price_unit": "EA",
+      "unit_content": "1",
+      "age_restrictions": [],
+      "cat_tax": "010001",
+      "quantity_max": "99",
+      "par_weight": "0",
+      "attributes": [
+        {
+          "key": "comparison_price_unit",
+          "value": "KG"
+        },
+        {
+          "key": "net_content",
+          "value": "0.000"
+        }
+      ]
+    }
+  },
+  {
+    "country": "AU",
+    "abstract_sku": "000000000000423668",
+    "usa_snap_eligible": "false",
+    "alcoholic": "false",
+    "organic": "false",
+    "kosher": "false",
+    "variant_building_attributes": "colour",
+    "variant": {
+      "variant_sku": "000000000423668003",
+      "active": "false",
+      "retailer_reference_code": "000000000423668003",
+      "temperature_class": "ambient",
+      "random_weight_type": "0",
+      "product_code_legacy": [],
+      "product_class": [],
+      "price_unit": "EA",
+      "unit_content": "1",
+      "age_restrictions": [],
+      "cat_tax": "010001",
+      "quantity_max": "99",
+      "par_weight": "0",
+      "attributes": [
+        {
+          "key": "comparison_price_unit",
+          "value": "KG"
+        },
+        {
+          "key": "net_content",
+          "value": "0.000"
+        }
+      ]
+    }
+  },
+  {
+    "country": "AU",
+    "abstract_sku": "099999999999999986A",
+    "usa_snap_eligible": "false",
+    "alcoholic": "true",
+    "organic": "false",
+    "kosher": "false",
+    "variant_building_attributes": "colour",
+    "variant": {
+      "variant_sku": "099999999999999986",
+      "active": "false",
+      "retailer_reference_code": "099999999999999986",
+      "temperature_class": "ambient",
+      "random_weight_type": "0",
+      "product_code_legacy": "1076",
+      "product_class": "core",
+      "price_unit": "KG",
+      "unit_content": "1",
+      "age_restrictions": "18",
+      "cat_tax": "010001",
+      "quantity_min": "1",
+      "quantity_max": "1",
+      "par_weight": "0",
+      "attributes": [
+        {
+          "key": "comparison_price_unit",
+          "value": "string"
+        },
+        {
+          "key": "net_content",
+          "value": "1.23456"
+        },
+        {
+          "key": "country_origin",
+          "value": "Austria"
+        },
+        {
+          "key": "consumer_storage_instructions",
+          "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986",
+          "translations": [
+            {
+              "locale": "en_AU",
+              "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
+            },
+            {
+              "locale": "en_AU",
+              "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
+            },
+            {
+              "locale": "en_AU",
+              "value": "ConsumerPackageDisclaimer en_AU 0001008690_099999999999999986"
+            },
+            {
+              "locale": "en_AU",
+              "value": "ConsumerPackageDisclaimer en_AU 0001008691_099999999999999986"
+            }
+          ]
+        },
+        {
+          "key": "consumer_usage_instructions",
+          "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986",
+          "translations": [
+            {
+              "locale": "en_AU",
+              "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
+            },
+            {
+              "locale": "en_AU",
+              "value": "ConsumerPackageDisclaimer en_AU 0001008688_099999999999999986"
+            },
+            {
+              "locale": "en_AU",
+              "value": "ConsumerPackageDisclaimer en_AU 0001008690_099999999999999986"
+            },
+            {
+              "locale": "en_AU",
+              "value": "ConsumerPackageDisclaimer en_AU 0001008691_099999999999999986"
+            }
+          ]
+        }
+      ]
+    }
+  }
